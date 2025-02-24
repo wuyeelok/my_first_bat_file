@@ -8,3 +8,6 @@
 
 # Ignore macOS system files
 .DS_Store
+
+# Ignore target_backup folder
+target_backup/
