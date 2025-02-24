@@ -1,0 +1,10 @@
+# Ignore Microsoft Office Temp Files
+~$*
+*.tmp
+*.temp
+*.o
+*.obj
+*.~lock.*
+
+# Ignore macOS system files
+.DS_Store
