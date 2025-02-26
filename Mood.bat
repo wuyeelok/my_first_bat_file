@@ -12,4 +12,7 @@ set MYMOOD=cheerful& REM This will set both myMood and MYMOOD to cheerful, so wa
 echo myMood is %myMood%!
 echo MYMOOD is %MYMOOD%!
 
+set myCar=Toyota& REM Set myCar to Toyota
+set m& REM This will display all the variables that start with m
+
 pause
