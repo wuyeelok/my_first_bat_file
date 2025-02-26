@@ -25,5 +25,7 @@ REM One line comment next the command
 Set X=Good& REM This is a comment
 > con echo The value of X is %X%!& REM This is another comment
 
+set myIntro=Hello Word Ha Ha Ha& REM Set myIntro to "Hello Word Ha Ha Ha"
+echo My intro is %myIntro%!
 
 pause
