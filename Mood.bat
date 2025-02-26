@@ -1,14 +1,14 @@
 @echo off
 
 REM Set the mood to Happy and then to Sad
-set myMood=Happy
+set myMood=Happy& REM Set the mood to Happy
 echo My mood is %myMood%!
-set myMood=Sad
+set myMood=Sad& REM Set the mood to Sad
 echo My mood is %myMood%!
 
 
 REM Varaible is case insensitive
-set MYMOOD=cheerful
+set MYMOOD=cheerful& REM This will set both myMood and MYMOOD to cheerful, so watch out
 echo myMood is %myMood%!
 echo MYMOOD is %MYMOOD%!
 
