@@ -21,4 +21,9 @@ REM Set X=Bye   & > con echo The value of X is %X%!, & is the command separator 
 Set X=Bye   &
 > con echo The value of X is %X%!
 
+REM One line comment next the command
+Set X=Good& REM This is a comment
+> con echo The value of X is %X%!& REM This is another comment
+
+
 pause
