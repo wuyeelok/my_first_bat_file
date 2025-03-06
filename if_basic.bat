@@ -31,6 +31,20 @@ if exist "%fullPathAndFileName%" (
     > con echo File does not exist
 )
 
+REM Check if JAVA_HOME is defined and if the directory exists
+if defined JAVA_HOME (
+    > con echo JAVA_HOME is defined and the value is: %JAVA_HOME%
+
+    if exist "%JAVA_HOME%" (
+        > con echo JAVA_HOME directory exists
+    ) else (
+        > con echo JAVA_HOME directory does not exist
+    )
+
+) else (
+    > con echo JAVA_HOME is not defined
+)
+
 endlocal
 
 pause
