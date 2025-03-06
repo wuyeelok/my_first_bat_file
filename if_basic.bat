@@ -15,6 +15,22 @@ if %age% geq 18 (
     > con echo children
 )
 
+
+set fullPathAndFileName=C:\Program Files\Git\LICENSE.txt& REM Set variable fullPathAndFileName to C:\Program Files\Git\LICENSE.txt
+
+if defined fullPathAndFileName (
+    > con echo fullPathAndFileName is defined and the value is %fullPathAndFileName%
+) else (
+    > con echo fullPathAndFileName is not defined
+)
+
+REM Check if file exists, remember to surroud path with double quotes!
+if exist "%fullPathAndFileName%" (
+    > con echo File exists
+) else (
+    > con echo File does not exist
+)
+
 endlocal
 
 pause
